@@ -4,17 +4,21 @@ noun
 
 the process by which something is reduced in terms of complexity, esp. in relation to user experience; simplification
 
-Degradation of Life is an advanced and hyper-configurable Quality of Life solution suitable for all playthroughs!
-It features a multitude of optimizations and improvements, making gameplay smooth and enjoyable.
+更好的体验's Foil; Aristotle's Denial
+
+Introducing Degradation of Life (DoL), the ultimate Quality of Life.
+This advanced mod has many features, including (but not limited to):
 
 Features:
-- Made music consistent and optimized (corrected some logic behind choosing what music to play),
-- entity clutter optimization (optimized the dropping of things like coins on death),
-- a more immersive map that responds to changes in lighting,
-- infinite buffs from potions in the inventory,
-- a "player cool down" system which makes adjustments to things like respawning to feel more natural and less jarring,
-- uncaps the buff limit,
-- makes loot dropped by the Wall of Flesh more accessible (no more loot getting stuck in the box underground).
+- consistent and optimized music (modified code for choosing what music to play during boss fights and in biomes),
+- a more immersive map (visually updates based on the time of day),
+- a unique system for infinite buffs from potions in your inventory and personal banks,
+- a "player cool down" system which leverages machine learning neural network models to determine the best time to respawn your player, adjusting conditions as needed to keep you excited without making the respawn times unfair,
+- an entity-decluttering optimization system,
+- an uncapped buff limit (more than 44 [de]buffs),
+- accessible WoF loot (adjusts the spawning logic for items dropped by WoF, now it'll never get stuck in a box underground!),
+- incremental optimizations by rewriting portions of the game in Rust (:rocket:) through brand new .NET-Rust-interop technology,
+- 
 
 DISCLAIMER: THIS IS A JOKE MOD, THE LISTED EFFECTS ARE ONLY PARTIALLY TRUE AND MAY HAVE ADVERSE AFFECTS ON YOUR PLAYERS AND WORLDS
 BACKING UP PRIOR TO USING THIS MOD IS ADVISED (I'd recommend doing this for *all* mods).
