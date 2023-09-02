@@ -7,7 +7,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
-        <RootNamespace>DoL</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
