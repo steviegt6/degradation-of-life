@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace DoL.Content.Features.InfiniteBuffs;
 
+[UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
 internal sealed class BuffDebuffMap : ModSystem {
     private readonly Dictionary<int, int> buffDebuffMap = new();
 
@@ -18,12 +20,12 @@ internal sealed class BuffDebuffMap : ModSystem {
         AddDebuff(BuffID.Ironskin, -1); // TODO: reduced defense (or dr?)
         AddDebuff(BuffID.ManaRegeneration, -1); // TODO: halves mana regeneration
         AddDebuff(BuffID.MagicPower, -1); // TODO: decreases magic damage by 10%
-        AddDebuff(BuffID.Featherfall, -1); // TODO: increase fall speed and gravity by 33%
+        AddDebuff(BuffID.Featherfall, -1); // TODO: artifact of glass
         AddDebuff(BuffID.Spelunker, -1); // TODO: effect?
         AddDebuff(BuffID.Invisibility, -1); // TODO: increased aggro
         AddDebuff(BuffID.Shine, -1); // TODO: dim lighting around the player significantly
         AddDebuff(BuffID.NightOwl, -1); // TODO: blindness
-        AddDebuff(BuffID.Battle, -1); // TODO: no this is fine actually
+        AddDebuff(BuffID.Battle, -1); // TODO: calm
         AddDebuff(BuffID.Thorns, -1); // TODO: dealing damage to enemies damages you
         AddDebuff(BuffID.WaterWalking, -1); // TODO: can't jump in water
         AddDebuff(BuffID.Archery, -1); // TODO: decrease damage by 10%
@@ -33,7 +35,7 @@ internal sealed class BuffDebuffMap : ModSystem {
         AddDebuff(BuffID.WellFed, BuffID.NeutralHunger);
         AddDebuff(BuffID.Mining, -1); // TODO: mine slower
         AddDebuff(BuffID.Heartreach, -1); // TODO: decrease range
-        AddDebuff(BuffID.Calm, -1); // TODO: zerg
+        AddDebuff(BuffID.Calm, -1); // TODO: battle
         AddDebuff(BuffID.Builder, BuffID.NoBuilding);
         AddDebuff(BuffID.Titan, -1); // TODO: reduced kb
         AddDebuff(BuffID.Flipper, -1); // TODO: increased water slow-down
