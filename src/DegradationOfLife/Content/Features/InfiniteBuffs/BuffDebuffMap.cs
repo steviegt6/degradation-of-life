@@ -46,7 +46,7 @@ internal sealed class BuffDebuffMap : ModSystem {
         );
 
         CreateDebuff(
-            BuffID.Swiftness,
+            BuffID.Gills,
             (Player player, ref int _) => {
                 player.gills = false;
                 // TODO: drown faster
