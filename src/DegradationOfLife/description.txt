@@ -6,3 +6,15 @@ the process by which something is reduced in terms of complexity, esp. in relati
 
 Degradation of Life is an advanced and hyper-configurable Quality of Life solution suitable for all playthroughs!
 It features a multitude of optimizations and improvements, making gameplay smooth and enjoyable.
+
+Features:
+- Made music consistent and optimized (corrected some logic behind choosing what music to play),
+- entity clutter optimization (optimized the dropping of things like coins on death),
+- a more immersive map that responds to changes in lighting,
+- infinite buffs from potions in the inventory,
+- a "player cool down" system which makes adjustments to things like respawning to feel more natural and less jarring,
+- uncaps the buff limit,
+- makes loot dropped by the Wall of Flesh more accessible (no more loot getting stuck in the box underground).
+
+DISCLAIMER: THIS IS A JOKE MOD, THE LISTED EFFECTS ARE ONLY PARTIALLY TRUE AND MAY HAVE ADVERSE AFFECTS ON YOUR PLAYERS AND WORLDS
+BACKING UP PRIOR TO USING THIS MOD IS ADVISED (I'd recommend doing this for *all* mods).
