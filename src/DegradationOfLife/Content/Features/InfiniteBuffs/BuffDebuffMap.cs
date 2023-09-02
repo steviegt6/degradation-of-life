@@ -92,7 +92,7 @@ internal sealed class BuffDebuffMap : ModSystem {
         );
 
         CreateDebuff(
-            BuffID.Spelunker,
+            BuffID.Invisibility,
             (Player player, ref int _) => {
                 player.invis = false;
                 player.aggro += 400;
@@ -130,7 +130,7 @@ internal sealed class BuffDebuffMap : ModSystem {
         );
 
         CreateDebuff(
-            BuffID.Thorns,
+            BuffID.WaterWalking,
             (Player player, ref int _) => {
                 player.waterWalk = false;
                 // TODO: can't jump in water
@@ -207,7 +207,7 @@ internal sealed class BuffDebuffMap : ModSystem {
         );
 
         CreateDebuff(
-            BuffID.Builder,
+            BuffID.Titan,
             (Player player, ref int _) => {
                 player.kbBuff = false;
                 // TODO: reduced kb
