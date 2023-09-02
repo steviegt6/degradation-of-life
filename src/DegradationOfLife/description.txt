@@ -18,7 +18,8 @@ Features:
 - an uncapped buff limit (more than 44 [de]buffs),
 - accessible WoF loot (adjusts the spawning logic for items dropped by WoF, now it'll never get stuck in a box underground!),
 - incremental optimizations by rewriting portions of the game in Rust (:rocket:) through brand new .NET-Rust-interop technology,
-- 
+- reworked NPC happiness system that essentially removes it,
+- increased boulder visibility.
 
 DISCLAIMER: THIS IS A JOKE MOD, THE LISTED EFFECTS ARE ONLY PARTIALLY TRUE AND MAY HAVE ADVERSE AFFECTS ON YOUR PLAYERS AND WORLDS
 BACKING UP PRIOR TO USING THIS MOD IS ADVISED (I'd recommend doing this for *all* mods).
