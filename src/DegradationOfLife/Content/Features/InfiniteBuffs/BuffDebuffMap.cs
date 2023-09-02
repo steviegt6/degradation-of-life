@@ -4,7 +4,7 @@ using JetBrains.Annotations;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace DoL.Content.Features.InfiniteBuffs;
+namespace DegradationOfLife.Content.Features.InfiniteBuffs;
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
 internal sealed class BuffDebuffMap : ModSystem {

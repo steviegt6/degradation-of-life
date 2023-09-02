@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Reflection;
-using DoL.Content.Features.InfiniteBuffs;
+using DegradationOfLife.Content.Features.InfiniteBuffs;
 using JetBrains.Annotations;
 using Terraria.ModLoader;
 
-namespace DoL;
+namespace DegradationOfLife;
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
 public sealed class DoLMod : Mod {
