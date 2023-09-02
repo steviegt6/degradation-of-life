@@ -9,7 +9,7 @@ internal abstract class AbstractInfiniteBuff : ModBuff {
 
     public override LocalizedText Description => GetBuffDescription(VanillaBuffEquivalent);
 
-    public override string Texture => "Terraria/Buff_" + VanillaBuffEquivalent;
+    public override string Texture => "Terraria/Images/Buff_" + VanillaBuffEquivalent;
 
     protected abstract int VanillaBuffEquivalent { get; }
 

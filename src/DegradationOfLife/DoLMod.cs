@@ -8,6 +8,8 @@ namespace DegradationOfLife;
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
 public sealed class DoLMod : Mod {
+    public override uint ExtraPlayerBuffSlots => 1000;
+
     public override object? Call(params object?[] args) {
         var command = ExpectCallArg<string>(0, args).ToLower();
 
