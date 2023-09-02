@@ -1,3 +1,3 @@
 ﻿displayName = Degradation of Life | Advanced Quality of Life Solution
 author = Tomat
-version = 1.0.1
+version = 1.1.0
