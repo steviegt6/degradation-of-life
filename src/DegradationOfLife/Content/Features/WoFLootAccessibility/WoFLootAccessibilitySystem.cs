@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 namespace DegradationOfLife.Content.Features.WoFLootAccessibility;
 
 [UsedImplicitly(ImplicitUseKindFlags.InstantiatedNoFixedConstructorSignature)]
-public sealed class WoFLootAccessibilitySystem : ModSystem {
+internal sealed class WoFLootAccessibilitySystem : ModSystem {
     public override void Load() {
         base.Load();
 

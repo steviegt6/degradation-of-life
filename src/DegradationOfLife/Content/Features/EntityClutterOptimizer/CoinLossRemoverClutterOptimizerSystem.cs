@@ -1,10 +1,12 @@
-﻿using Terraria;
+﻿using JetBrains.Annotations;
+using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace DegradationOfLife.Content.Features.EntityClutterOptimizer;
 
-public sealed class CoinLossRemoverClutterOptimizerSystem : ModSystem {
+[UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
+internal sealed class CoinLossRemoverClutterOptimizerSystem : ModSystem {
     public override void Load() {
         base.Load();
 

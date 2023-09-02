@@ -1,9 +1,11 @@
-﻿using Terraria.Map;
+﻿using JetBrains.Annotations;
+using Terraria.Map;
 using Terraria.ModLoader;
 
 namespace DegradationOfLife.Content.Features.ImmersiveMap;
 
-public sealed class ImmersiveMapSystem : ModSystem {
+[UsedImplicitly(ImplicitUseKindFlags.InstantiatedWithFixedConstructorSignature)]
+internal sealed class ImmersiveMapSystem : ModSystem {
     public override void Load() {
         base.Load();
 
